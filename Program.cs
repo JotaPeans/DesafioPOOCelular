@@ -14,7 +14,8 @@ namespace DesafioPOOCelular
 
             iphone.InstalarAplicativo("Instagram");
             nokia.InstalarAplicativo("Avast");
-
+            iphone.Ligar();
+            nokia.ReceberLigacao();
         }
     }
 }
